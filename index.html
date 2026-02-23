@@ -2,32 +2,39 @@
 <html>
 <head>
     <title>Student Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">    
 </head>
 <body>
 <h2>Student Registration Form</h2>
 <form>
-    Full Name:<br>
-    <input type="text" required><br><br>
-    Email:<br>
-    <input type="email" required><br><br>
-    Password:<br>
-    <input type="password" required><br><br>
-    Gender:<br>
-    <input type="radio" name="gender" required> Male
-    <input type="radio" name="gender" required> Female
+    <label for="name">Full Name:</label><br>
+    <input type="text" placeholder="Enter your name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" placeholder="Enter your email" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" placeholder="Enter your password" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required> Male
+    <input type="radio" id="female" name="gender" value="female" required> Female
     <br><br>
-    Skills:<br>
-    <input type="checkbox" required> HTML
-    <input type="checkbox"> CSS
-    <input type="checkbox"> JavaScript
+
+    <label>Skills:</label><br>
+    <input type="checkbox" id="html" name="skills" value="HTML"> HTML
+    <input type="checkbox" id="css" name="skills" value="CSS"> CSS
+    <input type="checkbox" id="js" name="skills" value="JavaScript"> JavaScript
     <br><br>
-    Date of Birth:<br>
+
+    <label for="dob">Date of Birth:</label><br>
     <input type="date" required><br><br>
+
     <button type="submit">Register</button>
 </form>
 
 <h2>Submitted Students (Dummy Data)</h2>
-<table border="1">
+<table border="1" cellpadding="8">
 
     <tr>
         <th>Name</th>

@@ -1,0 +1,55 @@
+body{
+   background-color: rgb(136, 181, 45);
+}
+h2{
+    color: darkred;
+    
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    width: 240px;
+    margin: 10px 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+input:focus {
+    border: 2px solid rgb(219, 35, 35);
+    outline: none;
+}
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 9px;
+}
+
+th {
+    background-color: rgb(243, 79, 79);
+}
+tr{
+    background-color: bisque;
+}
+td{
+    color: darkgreen;
+}
+button {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: crimson;
+}
+label{
+    font-weight: bold;
+    color: black;
+}
+
